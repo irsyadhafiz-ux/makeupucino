@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Makeupucino - Produk Kecantikan</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header><h1>Makeupucino</h1></header>
+  <nav>
+    <a href="index.html">Produk</a>
+    <a href="transaksi.html">Transaksi</a>
+    <a href="invoice.html">Invoice</a>
+    <a href="kontak.html">Kontak</a>
+    <a href="tentang.html">Tentang</a>
+  </nav>
+
+  <div class="container-3kolom">
+    <!-- Sidebar KIRI -->
+    <aside class="sidebar-kiri">
+      <h3>Kategori</h3>
+      <table>
+        <tr><th>Kategori  </th></tr>
+        <tr><td>Blush on</td></tr>
+        <tr><td>liquid foundation</td></tr>
+        <tr><td>setting spray</td></tr>
+      </table>
+    </aside>
+
+    <!-- KONTEN UTAMA -->
+    <main class="konten">
+      <div class="produk-card">
+        <img src="e8d7f9afccfe2f69b088995721503731.jpeg" alt="Blush on"/>
+        <div class="produk-info">
+          <h3>Blush on</h3>
+          <p class="deskripsi">Blush on agar wajah terlihat segar.</p>
+          <p class="harga">Rp500.000</p>
+          <button onclick="beliProduk('Blush on', 500000)">Beli Sekarang</button>
+        </div>
+      </div>
+
+      <div class="produk-card">
+        <img src="WTCID-21383-side-zoom.avif" alt="Liquid foundation"/>
+        <div class="produk-info">
+          <h3>Liquid foundation</h3>
+          <p class="deskripsi">Liquid foundation meratakan warna kulit dan menyamarkan bekas jerawat.</p>
+          <p class="harga">Rp1.500.000</p>
+          <button onclick="beliProduk('liquid foundation', 1500000)">Beli Sekarang</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Sidebar KANAN -->
+    <aside class="sidebar-kanan">
+      <h3>Rekomendasi</h3>
+      <table>
+        <tr><th>Produk</th><th>Harga</th></tr>
+        <tr><td>lipstick</td><td>Rp500k</td></tr>
+        <tr><td>masker g2glow</td><td>Rp50k</td></tr>
+        <tr><td>browcara</td><td>Rp200k</td></tr>
+      </table>
+    </aside>
+  </div>
+
+  <footer>&copy; Makeupucino</footer>
+  <script src="script.js"></script>
+</body>
+</html>
